@@ -10,13 +10,17 @@ body{
     position: fixed;
     display: inline-flex;
     justify-content: center;
+    align-items: center;
 }
 .left{
     width: 800px;
     font-family: 'Allura', cursive;
+    font-weight: 100;
+    font-size:1.5rem;
 }
 .right{
     display:inline-flex;
+    justify-content: flex-end;
     gap:50px;
     font-family: 'Lexend', sans-serif;
 }
