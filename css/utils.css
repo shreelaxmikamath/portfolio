@@ -1,0 +1,30 @@
+body{
+    margin:0px;
+}
+.home{
+    background-color:white;
+    height: 30rem;
+}
+@media(max-width:800px){
+    .navbar{
+        display: inline;
+        height: 10rem;
+        padding:0;
+    }
+    .left{
+        display: flex;
+        flex-wrap: wrap;
+        position: absolute;
+        left: 30%;
+        top:10px
+    }
+    .right{
+        position: relative;
+        top:2rem;
+        display: flex;
+        flex-direction: column;
+        gap: .3rem;
+        align-items: center;
+        flex-shrink: 1;
+    }
+}
