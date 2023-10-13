@@ -2,20 +2,25 @@ body{
     margin:0px;
 }
 .home{
-    background-color:white;
     height: 30rem;
+    color: rgb(43, 41, 41);
+    background-image: url(../images/background.png);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
 }
-@media(max-width:800px){
+@media(max-width:480px){
     .navbar{
         display: inline;
         height: 10rem;
         padding:0;
+        z-index: 1;
     }
     .left{
         display: flex;
         flex-wrap: wrap;
         position: absolute;
-        left: 30%;
+        left:10%;
         top:10px
     }
     .right{
@@ -26,5 +31,32 @@ body{
         gap: .3rem;
         align-items: center;
         flex-shrink: 1;
+        justify-content: center;
+    }
+    .big{
+        display: flex;
+        flex-direction: column;
+        background-color: white;
+       border: white;
+       width: 0;
+    }
+    .left1 {
+        border: white;
+        height: 4rem;
+    }
+    .name{
+        color: white;
+    }
+    .des{
+        color: white;
+    }
+    .media{
+        border: white;
+        position: relative;
+        top:11rem;
+        left: 1rem;
+    }
+    .home{
+        width: .1pt;
     }
 }

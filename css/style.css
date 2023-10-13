@@ -1,5 +1,5 @@
 .navbar{
-    background-color:#053B50;
+    background-color:#186F65;
     color:white;
     height: 1rem;
     padding: 1rem;
@@ -24,13 +24,16 @@
 }
 
 .big{
-    background-color: #acccca;
+    background-color:#bacca2;
     width: 40rem;
     height: 25rem;
-    margin-left: 25rem;
-    margin-top: 150px;
+    left:23rem;
+    top:10rem;
+    position: relative;
     display:flex;
-    
+    margin-top: 0;
+    margin-left: 0;
+    border: .3rem solid #186F65;
 }
 .profileimage{
     border-radius: 50%;
@@ -43,7 +46,7 @@
     padding: 2rem;
     width:15rem;
     height: 21rem;
-    border: .1rem solid black;
+    border-right: .12rem solid #186F65;
 }
 .move{
     padding-left:0rem;
@@ -63,11 +66,29 @@
     padding-left: 0px;
 }
 .description{
+    width: 19rem;
+    right: 3rem;
     position: relative;
-    top: 3rem;
+    top: 3rem
+}
+.des{
+    color:rgb(97, 96, 96);
+}
+.des1{
+    font-size:large;
+}
+.right1{
+    padding: 2rem;
+    width:18rem;
+    height: 21rem;
 }
 .b1{
     position: relative;
-    top: 18rem;
-    left: 6rem;
+    top: 5rem;
+    left: 9rem;
+    width: 5rem;
+    height: 2rem;
+    background-color: #186F65;
+    color: white;
+    border-radius: 20%;
 }
