@@ -1,0 +1,95 @@
+body{
+    height: 20rem;
+    background-color: #bacca2;
+    background-image: url(../images/background3.png);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+}
+.intro1{
+    position: relative;
+    bottom: 2rem;
+    display: flex;
+    height: 40rem;
+    border: 0;
+    background-color: #186F65;
+    border: 0%;
+    background-image: url(../images/background3.png);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+}
+.image1{
+    height: 30rem;
+    position: relative;
+    top: 5rem;
+    left: 33rem;
+}
+.name{
+font-family: 'Allura', cursive;
+font-size: xx-large;
+position: relative;
+left: 8rem;
+top: 6rem;
+}
+.abtme{
+    position: relative;
+    
+    font-size: 1.3rem;
+    top: 20rem;
+    right: 35rem;
+}
+.line{
+    width: 50rem;
+    position: relative;
+    top:18rem;
+    left: 2rem;
+    border-bottom: 3px solid;
+    z-index: 2;
+  }
+.extra{
+    height: 30rem;
+    font-size:x-large;
+    display: flex;
+}
+.extra1{
+    position: relative;
+    top:10rem;
+}
+.extra12{
+   font-size: xx-large;
+}
+.b1{
+    position: relative;
+    left: 10rem;
+    height: 2rem;
+    background-color: #186F65;
+    color: white;
+    border-radius: .5rem;
+}
+.extra2{
+    position: relative;
+    top:10rem;
+    left: 5rem;
+}
+.lang1{
+    display: flex;
+    gap: 4rem;
+    padding-top: 3rem;
+}
+.lang2{
+    display: flex;
+    gap: 4rem;
+    padding-top: 3rem;
+    padding-left: 1rem;
+}
+.rating{
+    border-radius: 55%;
+}
+.vl {
+    border-left: .3rem solid white;
+    height: 500px;
+    position: relative;
+    top:8rem;
+    left: 3rem;
+  }

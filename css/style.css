@@ -9,6 +9,7 @@
     justify-content: center;
     align-items: center;
     top:0px;
+    z-index: 1;
 }
 .left{
     width: 800px;
@@ -53,17 +54,30 @@
 }
 .name{
     margin-top: 1rem;
-    padding-left:4rem;
+    padding-left:3rem;
     height: 2rem;
+    font-size: large;
 }
 .media{
     position: relative;
     top:6.5rem;
     right: 2rem;
-    border-top: .1rem solid black; 
+    border-top: .1rem solid #186F65; 
     height: 3rem;
     width:19rem;
     padding-left: 0px;
+}
+.media1 {
+    height: 1.5rem;
+    position: relative;
+    left: 6rem;
+    top: .2rem;
+}
+.media2 {
+    height: 1.5rem;
+    position: relative;
+    left: 8rem;
+    bottom: .4rem;
 }
 .description{
     width: 19rem;
@@ -73,9 +87,11 @@
 }
 .des{
     color:rgb(97, 96, 96);
+    position: relative;
+    right:.5rem;
 }
 .des1{
-    font-size:large;
+    font-size:1.2rem;
 }
 .right1{
     padding: 2rem;
@@ -90,5 +106,37 @@
     height: 2rem;
     background-color: #186F65;
     color: white;
-    border-radius: 20%;
+    border-radius: 15%;
+}
+.about1{
+    display: flex;
+}
+.heading{
+    position: relative;
+    left: 40%;
+    font-size: xx-large;
+    top:3rem;
+}
+.img1{
+    height: 19rem;
+    position: relative;
+    top:12rem;
+    left: 5rem;
+}
+.aboutme{
+    width: 25rem;
+    text-align: justify;
+    position: relative;
+    top:13rem;
+    left: 5rem;
+    font-size: large;
+}
+.b2{
+    position: relative;
+    top: 27rem;
+    right: 22.5rem;
+    background-color: #186F65;
+    color: white;
+    border-radius: 15%;
+    height: 2rem;
 }
