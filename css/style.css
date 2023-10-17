@@ -1,3 +1,4 @@
+/*nav bar*/
 .navbar{
     background-color:#186F65;
     color:white;
@@ -23,7 +24,7 @@
     gap:3rem;
     font-family: 'Lexend', sans-serif;
 }
-
+/*home page*/
 .big{
     background-color:#bacca2;
     width: 40rem;
@@ -36,6 +37,7 @@
     margin-left: 0;
     border: .3rem solid #186F65;
 }
+/*profile*/
 .profileimage{
     border-radius: 50%;
     height: 8rem;
@@ -93,6 +95,7 @@
 .des1{
     font-size:1.2rem;
 }
+/*description*/
 .right1{
     padding: 2rem;
     width:18rem;
@@ -108,6 +111,7 @@
     color: white;
     border-radius: 15%;
 }
+/*About me*/
 .about1{
     display: flex;
 }

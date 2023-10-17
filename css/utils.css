@@ -14,7 +14,12 @@ body{
     height: 37rem;
     background-color:#bacca2;
 }
-@media(max-width:480px){
+/*media query on mobile screen*/
+@media(max-width: 1150px) and (min-width:200px){
+    body{
+        height: 0;
+    }
+    /*navbar*/
     .navbar{
         display: inline;
         height: 10rem;
@@ -24,7 +29,7 @@ body{
         display: flex;
         flex-wrap: wrap;
         position: absolute;
-        left:10%;
+        left: 15rem;
         top:10px
     }
     .right{
@@ -37,22 +42,18 @@ body{
         flex-shrink: 1;
         justify-content: center;
     }
+    /*intro*/
     .big{
         display: flex;
         flex-direction: column;
         background-color: white;
        border: white;
        width: 0;
+       left:10rem;
     }
     .left1 {
         border: white;
         height: 4rem;
-    }
-    .name{
-        color: white;
-    }
-    .des{
-        color: white;
     }
     .media{
         border: white;
@@ -62,5 +63,58 @@ body{
     }
     .home{
         width: .1pt;
+    }
+    .des1{
+        position: relative;
+        top:3rem;
+        left: 1rem;
+        color: white;
+    }
+    .des2{
+        position: relative;
+        right:1.3rem;
+        text-align: center;
+    }
+    .media1{
+        left: 3rem;
+    }
+    .media2{
+        
+        left: 5rem;
+    }
+    .b1{
+        top:3rem;
+    }
+    /*about me*/
+    .about{
+        width: 39rem;
+        height: 50rem;
+    }
+    h3{
+        width: 11rem;
+    }
+    .heading{
+        left: 12rem;
+    }
+    .img12{
+        padding: 0%;
+    }
+    .img1{
+        left: .1rem;
+    }
+    .aboutme{
+        top: 35rem;
+        left: 0%;
+        padding-left: 0%;
+        width: 5rem;
+    }
+    .aboutme1{
+        width: 25rem;
+        position: relative;
+        right: 18rem;
+    }
+    .b2{
+        top:47rem;
+        left:1px
     }
 }
