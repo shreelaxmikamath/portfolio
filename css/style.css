@@ -148,6 +148,13 @@
 .skills{
     height: 37rem;
 }
+.skill{
+    position: relative;
+    left: 37rem;
+    font-size: xxx-large;
+    width:20rem;
+    height: .1rem;
+}
 .box{
     display: flex;
     justify-content: space-evenly;

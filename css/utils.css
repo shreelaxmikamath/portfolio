@@ -24,6 +24,8 @@ body{
         display: inline;
         height: 10rem;
         padding:0;
+        position: fixed;
+        z-index: 1;
     }
     .left{
         display: flex;
@@ -116,5 +118,36 @@ body{
     .b2{
         top:47rem;
         left:1px
+    }
+    /*skills*/
+    .box{
+        flex-direction: column;
+        width: 10rem;
+        left: .7rem;
+        gap:2rem;
+    }
+    .box1{
+        width: 11rem;
+    }
+    .images1{
+        top:-31rem;
+        width: 5rem;
+        height: 5rem;
+        left:9rem
+    }
+    .images2{
+        top:-12rem;
+        width: 5rem;
+        height: 5rem;
+        left:4rem
+    }
+    .images3{
+        width: 4rem;
+        height: 4rem;
+        left: 0;
+        top:5rem
+    }
+    .skill{
+        left: 2rem;
     }
 }
