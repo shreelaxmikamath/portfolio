@@ -203,3 +203,139 @@
     left:50rem;
     top:2rem
 }
+.left11{
+    height: 27rem;
+}
+/*contact me*/
+.contact1{
+    position: relative;
+    left: 35rem;
+    font-size: xx-large;
+    width: 11rem;
+}
+.contact2{
+    position: relative;
+    left: 37rem;
+    color: gray;
+    font-size: large;
+    width: 10rem;
+    top:-2rem;
+}
+.contact3{
+    font-size: larger;
+    position: relative;
+    top:-3rem;
+}
+.image1{
+    display: flex;
+    gap: 4rem;
+    flex-direction: column;
+    width: 2rem;
+    position: relative;
+    top:6rem;
+}
+.contact4{
+    display: flex;
+    flex-direction: column;
+    font-size: larger;
+    gap: 1rem;
+    position: relative;
+    left: 4rem;
+    top:-10rem;
+   width:20rem 
+}
+.contact5{
+    position: relative;
+    right: 2.5rem;
+    color: gray;
+}
+.left11{
+     background-color:#bacca2;
+     height: 25rem;
+     position: relative;
+     top: -2rem;
+     width:60rem;
+     left: 13rem;
+}
+.right11{
+    display: inline-flex;
+    position: relative;
+    top:-24rem;
+    left:40rem;
+    gap:6rem;
+}
+.right12{
+    display: inline-flex;
+    position: relative;
+    top:-17rem;
+    left:12rem;
+    gap:6rem;
+}
+.right13{
+    display: inline-flex;
+    position: relative;
+    top:-11rem;
+    left:-7rem;
+    gap:6rem;
+}
+.right14{
+    height: 2rem;
+    background-color:#bacca2;
+    border: 0;
+    border-bottom: .2rem solid ;
+}
+.right15{
+    background-color:#bacca2;
+    border: 0;
+    border-bottom: .2rem solid ;
+    height: 3rem;
+}
+.right16{
+    position: relative;
+    top:-8rem;
+    left:50rem;
+    width: 0;
+}
+.submit{
+    height: 2rem;
+    width: 8rem;
+    background-color:#bacca2;
+    border: .1rem solid ;
+}
+/*footer*/
+.footer{
+    background-color: #186F65;
+    color: white;
+    height: 8rem;
+}
+.footer1{
+    display: flex;
+    font-size: 1rem;
+    gap:3rem;
+    justify-content: center;
+}
+.cs{
+    width: 20rem;
+    position: relative;
+    left: 18rem;
+    top:-1rem;
+}
+.reserved{
+    text-align: center;
+    
+}
+.linkedin{
+    width: 1rem;
+    height: 1rem;
+    position: relative;
+    top:1rem
+}
+.github{
+    width: 1rem;
+    height: 1rem;
+    position: relative;
+    top:1rem
+}
+.name1{
+    font-size: larger;
+}
