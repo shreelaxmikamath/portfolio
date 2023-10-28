@@ -10,18 +10,18 @@
 </head>
 <body>
     <!--navbar-->
-    <section class="navbar">
+    <section class="navbar" >
             <div class="left">Shreelaxmi kamath</div>
             <div class="right">
-                <div class="two">Home </div>
-                <div class="two">About</div>
-                <div class="two">Skills </div>
-                <div class="two">Projects</div>
-                <div class="two">Contact</div>
+                <a href="#home"><div class="two">Home </div></a>
+                <a href="#about"><div class="two">About</div></a>
+                <a href="#skills"><div class="two">Skills </div></a>
+                <a href="#projects"><div class="two">Projects</div></a>
+                <a href="#contact"><div class="two">Contact</div></a>
             </div>
     </section>
     <!--home-->
-    <section class="home">
+    <section class="home" id="home">
         <div class="big">
             <div class="left1">
                 <ul class="move">
@@ -37,13 +37,13 @@
                 <ul class="description">
                     <p class="des1"><b>Hi,I'm Shreelaxmi Kamath</b></p><br /><p class="des2">A second-year undergraduate <br />computer science and engineering student at <br />Shri Madhwa Vadiraja Institute of Technology & Management,Bantakal</p></ul>
                 </ul>
-                <ul><input type="button" value="Contact" class="b1"></ul>
+                <ul><a href="#contact"><input type="button" value="Contact" class="b1"></a></ul>
                 </ul>
             </div>
         </div>
     </section>
     <!--about me-->
-    <section class="about">
+    <section class="about" id="about">
     <div class="about1">
      <ul class="heading"><h3><b>About Me</b></h3></ul>
      <ul class="img12"><img src="./images/my image.jpg" alt="my picture" class="img1"/></ul>
@@ -53,7 +53,7 @@
     </div>
     </section>
     <!--skills-->
-    <section class="skills">
+    <section class="skills" id="skills">
         <ul class="skill"><b>Skills</b></ul>
         <div class="box">
             <ul class="box1"><ul class="box11"><b class="content11">Programming language</b><div class="content12"><li>C</li><li>C++</li><li>Java</li><li>Python</li></div></ul></ul>
@@ -67,7 +67,7 @@
         </div>
     </section>
     <!--contact me-->
-    <section class="Contact">
+    <section class="Contact" id="contact">
       <ul class="contact1"><b>Contact Me</b></ul>
         <ul class="contact2">Get in touch</ul></div>  
        <ul class="contact3"><b>Shreelaxmi Kamath</b></ul> 
@@ -101,13 +101,14 @@
         <div class="right13"> <input type="text"  placeholder="message" class="right15" ></div>
         <div class="right16"><input type="button" value="Send message" class="submit"></div>       
     </section>
+    <a href="#top"><img src="./images/icon/arrow.png" class="arrow"/></a>
     <!--Footer-->
     <section class="footer">
         <div class="footer1">
 <ul class="name1"><b>Shreelaxmi kamath</b></ul>
-<ul>portfolio</ul>
-<ul>projects</ul>
-<ul>Contact-me</ul>
+<a href="#about"><ul>portfolio</ul></a>
+<a href="#project"><ul>projects</ul></a>
+<a href="#contact"><ul>Contact-me</ul></a>
 <a href="https://www.linkedin.com/in/shreelaxmi-kamath-283711283/"><img src="./images/icon/linkedin.png" alt="linkedin" class="linkedin"></a>
 <a href="https://github.com/shreelaxmikamath"><img src="./images/icon/github.png" alt="github" class="github"></a>
 </div>

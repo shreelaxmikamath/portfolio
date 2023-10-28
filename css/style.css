@@ -339,3 +339,13 @@
 .name1{
     font-size: larger;
 }
+.arrow{
+    position: relative;
+    left: 80rem;
+    border:.2rem solid black;
+    top:-2rem;
+}
+a{
+    color: white;
+    text-decoration:none;
+}
