@@ -19,15 +19,15 @@
             <img src="./images/font/Name.png" alt="name" class="name-main1"/>
         </div>
         <div class="nav-main">
-            <div class="nav-main1">HOME</div>
-            <div class="nav-main2">ABOUT</div>
-            <div class="nav-main3">SKILLS</div>
-            <div class="nav-main4">PROJECTS</div>
-            <div class="nav-main5">CONTACT ME</div>
+            <a href="#HOME"><div class="nav-main1">HOME</div></a>
+            <a href="#ABOUT"><div class="nav-main2">ABOUT</div></a>
+            <a href="#SKILLS"><div class="nav-main3">SKILLS</div></a>
+            <a href="#PROJECTS"><div class="nav-main4">PROJECTS</div></a>
+            <a href="#CONTACT"><div class="nav-main5">CONTACT ME</div></a>
         </div>
         <div class="emaillinkedin-main">
-            <img src="./images/icon/mail.png" alt="Email" class="emaillinkedin-main1" />
-            <img src="./images/icon/linkedin.png" alt="linkedin" class="emaillinkedin-main1" />
+            <a href="https://formsubmit.co/el/fusadu"><img src="./images/icon/mail.png" alt="Email" class="emaillinkedin-main1" /></a>
+            <a href="https://www.linkedin.com/in/shreelaxmi-kamath-283711283/"><img src="./images/icon/linkedin.png" alt="linkedin" class="emaillinkedin-main1" /></a>
         </div>
     </section>
 
@@ -39,7 +39,7 @@
             <div class="Introdescription-main3">A third-year undergraduate<br />
                 computer science & engineering student at<br />
                 Shri Madhwa Vadiraja Institute of Technology & <br />Management,Bantakal</div>
-            <a href=""><input type="button" value="CONTACT ME" class="Introdescription-main4"></a>
+            <a href="#CONTACT"><input type="button" value="CONTACT ME" class="Introdescription-main4"></a>
         </div>
         <div class="Myimage-main">
             <img src="./images/image-image/my-picture.png" alt="My picture" class="Myimage-main1"/>
@@ -51,7 +51,7 @@
     <section id="ABOUT">
         <div class="smallerabout">
         <div class="aboutme-image">
-            <img src="./images/image-image/my-about-me-picture.png" alt="my-picture2" class="aboutme-image1" />
+            <img src="./images/image-image/my-picture-about.png" alt="my-picture2" class="aboutme-image1" />
         </div>
         <div class="aboutme">
             <img src="./images/font/welcome.png" alt="welcome" class="aboutme1"/>
@@ -76,38 +76,36 @@
     <section id="SKILLS">
         <img src="./images/font/Technical skills.png" alt="skills" class="skills1" />
         <div class="skills2">
-            <div class="dropdown">
-                <span class="dropdown11"> Programming Languages<img src="./images/icon/dropdown.png" alt="dropdown" class="dropdownicon"/></span>
-                <div class="dropdown-content">
-                <p>C</p>
-                <p>C++</p>
-                <p> JAVA</p>
-                 <p>  PYTHON</p>
-                </div>
-              </div>
+            <div class="skills21">Programming Language</div>
+            <div class="skills22">
+            <div>C</div>
+            <div>C++</div>
+            <div>JAVA</div>
+            <div>PYTHON</div>
+        </div>
         </div>
         <div class="skills3">
-            <div class="dropdown">
-                <span class="dropdown11">Tech Stack <img src="./images/icon/dropdown.png" alt="dropdown" class="dropdownicon"/></span>
-                <div class="dropdown-content">
-                <p>HTML</p>
-                <p>CSS</p>
-                 <p> JavaScript</p>
-                </div>
-              </div>
+            <div class="skills31">Tech Stack</div>
+            <div class="skills32">
+            <div>HTML</div>
+            <div>CSS</div>
+            <div>JAVASCRIPT</div>
+        </div>
         </div>
         <div class="skills4">
-            <div class="dropdown">
-                <span class="dropdown11">Tools<img src="./images/icon/dropdown.png" alt="dropdown" class="dropdownicon"/></span>
-                <div class="dropdown-content">
-                <p>Git</p>
-                <p>GitHub</p>
-                 <p>Vscode</p>
-                </div>
-              </div>
+            <div class="skills41">Tools</div>
+            <div class="skills42">
+            <div>VSCODE</div>
+            <div>Git</div>
+            <div>GITHUB</div>
+        </div>
+        </div>
+        <div class="skills5-img">
+            <img src="./images/icon/Programming-language.png" alt="Programming Language" class="skills5-img1" />
+            <img src="./images/icon/techstack.png" alt="Tech Stack" class="skills5-img2" />
+            <img src="./images/icon/tools.png" alt="Tools" class="skills5-img3" />
         </div>
     </section>
-
     <!--PROJECTS-->
     <section id="PROJECTS">
         <div class="project">
@@ -121,34 +119,33 @@
         <img src="./images/font/getintouch.png" alt="get in touch" class="contact-heading2"/>
         <div class="contact-heading1">Send me a message</div>
         </div>
-        <div class="form-filling">
-        <div class="form-filling1">
-        <input type="text" name="name" placeholder="Name" class="form-filling11" >
-            <input type="text" name="Email" placeholder="Email" class="form-filling12">
-        </div>
-        <input type="text" name="Phoneno" placeholder="Phone no" class="form-filling2">
-        <input type="text" name="Message" placeholder="Message" class="form-filling3">
-        <input type="button" value="Submit" class="form-filling4">
-        <div class="emaillinkedin-contact">
-            <img src="./images/icon/email2.png" alt="Email" class="emaillinkedin-contact1" />
-            <img src="./images/icon/linkedin2.png" alt="linkedin" class="emaillinkedin-contact2" />
-        </div>
-    </div>
-    </section>
+        <form action="https://formsubmit.co/shreelaxmi.k111@gmail.com" method="POST">
+            <input type="text" name="name" placeholder="Name" required class="contact-form1">
+            <input type="tel" name="phoneno" placeholder="Phone no" required class="contact-form2">
+            <input type="email" name="email" placeholder="email" required class="contact-form3">
+            <textarea name="message" placeholder="Message" required  class="contact-form4"></textarea>
+            <button type="submit" class="contact-form5">submit</button>
+       </form>
+    
+<div class="emaillinkedin-contact">
+    <a href="https://formsubmit.co/el/fusadu"><img src="./images/icon/email2.png" alt="email" class="emaillinkedin-contact1" /></a>
+    <a href="https://www.linkedin.com/in/shreelaxmi-kamath-283711283/" ><img src="./images/icon/linkedin2.png" alt="email" class="emaillinkedin-contact2" /></a>
+</div>
+</section> 
 
     <!--FOOTER-->
     <section id="FOOTER">
         <img src="./images/font/Name.png" alt="name" class="footer1" />
         <div class="footer2">
-            <div class="footer21">HOME</div>
-            <div class="footer22">ABOUT</div>
-            <div class="footer23">SKILLS</div>
+            <a href="#HOME"><div class="footer21">HOME</div></a>
+            <a href="#ABOUT"><div class="footer22">ABOUT</div></a>
+            <a href="#SKILLS"><div class="footer23">SKILLS</div></a>
         </div>
         <div class="footer3">
-            <div class="footer31">PROJECTS</div>
-            <div class="footer32">CONTACT ME</div>
-            <img src="./images/icon/linkedin.png" alt="linkedin" class="footer33" />
-            <img src="./images/icon/mail.png" alt="email" class="footer34" />
+            <a href="#PROJECTS"> <div class="footer31">PROJECTS</div></a>
+                <a href="#CONTACT"><div class="footer32">CONTACT ME</div></a>
+            <a href="https://www.linkedin.com/in/shreelaxmi-kamath-283711283/"><img src="./images/icon/linkedin.png" alt="linkedin" class="footer33" /></a>
+                <a href="https://formsubmit.co/el/fusadu"><img src="./images/icon/mail.png" alt="email" class="footer34" /></a>
 
         </div>
         <div class="footer4">© SHREELAXMI 2023 | ALL RIGHTS RESERVED |  </div>
